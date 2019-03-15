@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d4bbfac-dd7f-4bfb-ab8d-f06eefd44ac2" name="Default Changelist" comment="" />
+    <list default="true" id="9d4bbfac-dd7f-4bfb-ab8d-f06eefd44ac2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Inheritance_replacement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance_replacement/src/main/java/Accounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance_replacement/src/main/java/Cheque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance_replacement/src/main/java/Savings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance_replacement/src/test/java/ChequeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inheritance_replacement/src/test/java/SavingsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Encapsulation/target/" />
     <ignored path="$PROJECT_DIR$/Inheritance/target/" />
     <ignored path="$PROJECT_DIR$/Polymorphism/target/" />
     <ignored path="$PROJECT_DIR$/Delegation/target/" />
+    <ignored path="$PROJECT_DIR$/Inheritance_replacement/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +37,9 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,6 +63,11 @@
         <option value="$PROJECT_DIR$/FactoryMethod/src/test/java/AccountsTest.java" />
         <option value="$PROJECT_DIR$/FactoryMethod/src/test/java/SavingsTest.java" />
         <option value="$PROJECT_DIR$/FactoryMethod/src/main/java/Accounts.java" />
+        <option value="$PROJECT_DIR$/Inheritance_replacement/src/main/java/Accounts.java" />
+        <option value="$PROJECT_DIR$/Inheritance_replacement/src/main/java/Savings.java" />
+        <option value="$PROJECT_DIR$/Inheritance_replacement/src/test/java/SavingsTest.java" />
+        <option value="$PROJECT_DIR$/Inheritance_replacement/src/test/java/ChequeTest.java" />
+        <option value="$PROJECT_DIR$/Inheritance_replacement/src/main/java/Cheque.java" />
       </list>
     </option>
   </component>
@@ -64,6 +84,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -87,7 +108,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552690838380" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552692849497" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -119,38 +140,37 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InvestmentTest">
-    <configuration name="InvestmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Polymorphism" />
+  <component name="RunManager" selected="JUnit.ChequeTest">
+    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Encapsulation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvestmentTest" />
+      <option name="MAIN_CLASS_NAME" value="AccountTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvestmentTest.interest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Polymorphism" />
+    <configuration name="ChequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_replacement" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvestmentTest" />
-      <option name="METHOD_NAME" value="interest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ChequeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvestmentTest.withdraw" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Polymorphism" />
+    <configuration name="ChequeTest.showAccDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_replacement" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="InvestmentTest" />
-      <option name="METHOD_NAME" value="withdraw" />
+      <option name="MAIN_CLASS_NAME" value="ChequeTest" />
+      <option name="METHOD_NAME" value="showAccDetails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SavingsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Polymorphism" />
+      <module name="Inheritance_replacement" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SavingsTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -158,11 +178,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SavingsTest.getAccBal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Polymorphism" />
+    <configuration name="SavingsTest.deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Inheritance_replacement" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SavingsTest" />
-      <option name="METHOD_NAME" value="getAccBal" />
+      <option name="METHOD_NAME" value="deposit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -170,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.InvestmentTest" />
-        <item itemvalue="JUnit.InvestmentTest.withdraw" />
-        <item itemvalue="JUnit.InvestmentTest.interest" />
-        <item itemvalue="JUnit.SavingsTest.getAccBal" />
+        <item itemvalue="JUnit.ChequeTest" />
+        <item itemvalue="JUnit.AccountTest" />
+        <item itemvalue="JUnit.ChequeTest.showAccDetails" />
         <item itemvalue="JUnit.SavingsTest" />
+        <item itemvalue="JUnit.SavingsTest.deposit" />
       </list>
     </recent_temporary>
   </component>
@@ -188,49 +208,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552677544986</updated>
-      <workItem from="1552677546556" duration="9621000" />
+      <workItem from="1552677546556" duration="11661000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InvestmentTest_interest - 2019.03.15 at 22h 47m 18s.xml">
-      <configuration name="InvestmentTest.interest" configurationId="JUnit" />
+    <history-entry file="SavingsTest_showAccDetails - 2019.03.16 at 01h 21m 41s.xml">
+      <configuration name="SavingsTest.showAccDetails" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest_interest - 2019.03.15 at 22h 47m 54s.xml">
-      <configuration name="InvestmentTest.interest" configurationId="JUnit" />
+    <history-entry file="SavingsTest_showAccDetails - 2019.03.16 at 01h 21m 57s.xml">
+      <configuration name="SavingsTest.showAccDetails" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest_interest - 2019.03.15 at 22h 48m 09s.xml">
-      <configuration name="InvestmentTest.interest" configurationId="JUnit" />
+    <history-entry file="SavingsTest_getAccBal_(1) - 2019.03.16 at 01h 22m 46s.xml">
+      <configuration name="SavingsTest.getAccBal (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest_withdraw - 2019.03.15 at 22h 49m 33s.xml">
-      <configuration name="InvestmentTest.withdraw" configurationId="JUnit" />
+    <history-entry file="SavingsTest_deposit - 2019.03.16 at 01h 23m 22s.xml">
+      <configuration name="SavingsTest.deposit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest - 2019.03.15 at 22h 51m 39s.xml">
-      <configuration name="InvestmentTest" configurationId="JUnit" />
+    <history-entry file="SavingsTest - 2019.03.16 at 01h 23m 51s.xml">
+      <configuration name="SavingsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest - 2019.03.15 at 22h 52m 43s.xml">
-      <configuration name="InvestmentTest" configurationId="JUnit" />
+    <history-entry file="ChequeTest_showAccDetails - 2019.03.16 at 01h 28m 21s.xml">
+      <configuration name="ChequeTest.showAccDetails" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest_interest - 2019.03.15 at 22h 56m 26s.xml">
-      <configuration name="InvestmentTest.interest" configurationId="JUnit" />
+    <history-entry file="ChequeTest_showAccDetails - 2019.03.16 at 01h 28m 32s.xml">
+      <configuration name="ChequeTest.showAccDetails" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest_withdraw - 2019.03.15 at 22h 56m 39s.xml">
-      <configuration name="InvestmentTest.withdraw" configurationId="JUnit" />
+    <history-entry file="AccountTest - 2019.03.16 at 01h 33m 05s.xml">
+      <configuration name="AccountTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest - 2019.03.15 at 22h 58m 06s.xml">
-      <configuration name="InvestmentTest" configurationId="JUnit" />
+    <history-entry file="ChequeTest - 2019.03.16 at 01h 33m 22s.xml">
+      <configuration name="ChequeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InvestmentTest - 2019.03.15 at 22h 58m 40s.xml">
-      <configuration name="InvestmentTest" configurationId="JUnit" />
+    <history-entry file="ChequeTest - 2019.03.16 at 01h 33m 59s.xml">
+      <configuration name="ChequeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9621000" />
+    <option name="totallyTimeSpent" value="11661000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.20042644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945828" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" sideWeight="0.5005417" side_tool="true" weight="0.25746268" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -239,13 +259,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.5005417" side_tool="true" weight="0.25746268" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21776815" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21776815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.49729145" />
@@ -298,13 +318,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Encapsulation/src/test/java/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Encapsulation/src/main/java/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -425,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Inheritance/src/main/java/Accounts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FactoryMethod/src/test/java/AccountsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -469,6 +475,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance/src/main/java/Accounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance_replacement/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Encapsulation/src/test/java/AccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance_replacement/src/test/java/ChequeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="43" column="66" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance_replacement/src/main/java/Cheque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance_replacement/src/test/java/SavingsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="53" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance_replacement/src/main/java/Savings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Inheritance_replacement/src/main/java/Accounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -524,7 +610,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Delegation</last-edited>
+          <last-edited>Inheritance_replacement</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

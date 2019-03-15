@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Encapsulation" />
         <module name="Inheritance" />
+        <module name="Inheritance_replacement" />
         <module name="Polymorphism" />
       </profile>
     </annotationProcessing>
