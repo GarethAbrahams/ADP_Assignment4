@@ -15,6 +15,7 @@
       <module>Delegation</module>
       <module>Inheritance_replacement</module>
       <module>Design_Principles</module>
+      <module>DesignPrinciples</module>
   </modules>
 
   <name>ADP_Assignment4</name>

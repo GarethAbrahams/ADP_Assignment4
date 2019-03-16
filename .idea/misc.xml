@@ -9,6 +9,11 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Design_Principles/LSP/pom.xml" />
+        <option value="$PROJECT_DIR$/Design_Principles/LiskovSubstitution/pom.xml" />
+        <option value="$PROJECT_DIR$/Design_Principles/OCP/pom.xml" />
+        <option value="$PROJECT_DIR$/Design_Principles/SRP/pom.xml" />
+        <option value="$PROJECT_DIR$/Design_Principles/pom.xml" />
         <option value="$PROJECT_DIR$/FactoryMethod/pom.xml" />
       </set>
     </option>

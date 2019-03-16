@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DesignPrinciples" />
         <module name="Encapsulation" />
         <module name="Inheritance" />
         <module name="Inheritance_replacement" />
-        <module name="OCP" />
         <module name="Polymorphism" />
-        <module name="SRP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Design_Principles" target="1.7" />
       <module name="FactoryMethod" target="1.7" />
+      <module name="LiskovSubstitution" target="1.7" />
+      <module name="LSP" target="1.7" />
+      <module name="OCP" target="1.7" />
+      <module name="SRP" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
