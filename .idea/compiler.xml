@@ -9,7 +9,9 @@
         <module name="Encapsulation" />
         <module name="Inheritance" />
         <module name="Inheritance_replacement" />
+        <module name="OCP" />
         <module name="Polymorphism" />
+        <module name="SRP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

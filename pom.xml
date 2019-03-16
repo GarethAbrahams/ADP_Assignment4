@@ -14,6 +14,7 @@
     <module>Polymorphism</module>
       <module>Delegation</module>
       <module>Inheritance_replacement</module>
+      <module>Design_Principles</module>
   </modules>
 
   <name>ADP_Assignment4</name>
