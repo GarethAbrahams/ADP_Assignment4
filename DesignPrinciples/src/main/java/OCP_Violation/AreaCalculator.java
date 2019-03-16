@@ -1,4 +1,4 @@
-package OCP_Voilation;
+package OCP_Violation;
 
 public class AreaCalculator{
 
